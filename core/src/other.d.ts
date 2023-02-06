@@ -1,0 +1,1 @@
+type OtherType = 'OtherType'

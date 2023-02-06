@@ -5,12 +5,15 @@
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
   "scripts": {
-    "build": "rm -rf ./dist && tsc"
+    "build": "rm -rf ./dist && node ./build.mjs"
   },
   "keywords": [],
   "author": "lanzhi_lee@163.com",
   "license": "MIT",
   "devDependencies": {
-    "typescript": "~4.9.5"
+    "ttypescript": "^1.5.15",
+    "typescript": "~4.9.5",
+    "typescript-transform-paths": "^3.4.6",
+    "zx": "^7.1.1"
   }
 }

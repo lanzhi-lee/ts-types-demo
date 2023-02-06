@@ -14,7 +14,11 @@
     "sourceMap": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
-    "strict": true
+    "strict": true,
+    "plugins": [
+      // 将生成的类型定义文件中的 别名引用 转换为 相对路径引用
+      { "transform": "typescript-transform-paths", "afterDeclarations": true }
+    ]
   },
   "include": ["src/**/*", "type.d.ts"],
   "exclude": ["node_modules"]
