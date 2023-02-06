@@ -1,0 +1,13 @@
+{
+  "name": "@lanzhi/ts-demo",
+  "version": "0.0.1",
+  "description": "TODO",
+  "scripts": {},
+  "keywords": [],
+  "author": "lanzhi_lee@163.com",
+  "license": "MIT",
+  "dependencies": {
+    "@lanzhi/ts-core": "file:../core"
+  },
+  "devDependencies": {}
+}

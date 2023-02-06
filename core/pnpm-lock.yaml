@@ -1,0 +1,15 @@
+lockfileVersion: 5.4
+
+specifiers:
+  typescript: ^4.9.5
+
+devDependencies:
+  typescript: 4.9.5
+
+packages:
+
+  /typescript/4.9.5:
+    resolution: {integrity: sha1-CVl5+bzA0J2jJNWNA86Pg3TL5lo=, tarball: https://pkgs.d.xiaomi.net:443/artifactory/api/npm/mi-npm/typescript/-/typescript-4.9.5.tgz}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
+    dev: true

@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "lib": ["DOM", "ES2015", "ESNext"],
+    "module": "ESNext",
+    "rootDir": "./",
+    "baseUrl": "./",
+    "outDir": "./dist",
+    "paths": {
+      "@/*": ["src/*"],
+      "@component": ["src/component"]
+    },
+    "declaration": true,
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true
+  },
+  "include": ["src/**/*", "type.d.ts"],
+  "exclude": ["node_modules"]
+}

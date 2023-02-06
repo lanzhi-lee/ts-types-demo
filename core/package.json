@@ -1,0 +1,16 @@
+{
+  "name": "@lanzhi/ts-core",
+  "version": "0.0.1",
+  "description": "TODO",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "scripts": {
+    "build": "rm -rf ./dist && tsc"
+  },
+  "keywords": [],
+  "author": "lanzhi_lee@163.com",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "~4.9.5"
+  }
+}

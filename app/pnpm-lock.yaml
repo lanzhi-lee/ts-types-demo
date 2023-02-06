@@ -1,0 +1,15 @@
+lockfileVersion: 5.4
+
+specifiers:
+  '@lanzhi/ts-core': file:../core
+
+dependencies:
+  '@lanzhi/ts-core': file:../core
+
+packages:
+
+  file:../core:
+    resolution: {directory: ../core, type: directory}
+    name: '@lanzhi/ts-core'
+    version: 0.0.1
+    dev: false
